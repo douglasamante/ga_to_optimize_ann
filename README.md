@@ -46,9 +46,9 @@ architecture_DNA[-1] = Hyperparameter with: [0] = loss, [1] = optimizer
 Depth-1 last hidden layer since last layer is output layer*
 ```
 
-# Use of genetic Algorithm in action 
+# Use of genetic Algorithm in Action 
 
-After of you do run evolution execution, you will look some genetic algorithm approach, for instance: 
+After of you do run evolution execution, you will look some genetic algorithm approaches, for instance: 
 
 ### Mutation will hapeness now!
 
@@ -58,7 +58,7 @@ After of you do run evolution execution, you will look some genetic algorithm ap
 
 ### Mutation will hapeness now!
 
-Every time that happeness this is because the genetic operates are optimizating the network parameters. 
+Every time that happeness this is because the genetic operates are optimizating the network parameters, after a generation. 
 
 ## WARNING! 
 
