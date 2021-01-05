@@ -18,6 +18,7 @@ The goal these implementations are show the matter of a genetic algorithm to opt
 
 However,the utilizing the genetic algorithm refered in the implementation as "DNA" have the intuite of optimize the architecture parameters. The parameters that were consideraded: 
 
+```sh
 - DNA[0] = Depth
 
 - DNA[1] = Neurons_per_layer
@@ -26,13 +27,13 @@ However,the utilizing the genetic algorithm refered in the implementation as "DN
 
 - DNA[3] = Optimizer
 
-- DNA[4] = Losses
+- DNA[4] = Losses 
+```
 
-In which, each array position represent an network parameter. 
+In which, each array position represent an network parameter. Another relevant methodology is the mean of every array component about "architecture_DNA" variable. 
 
-Another relevant methodology is the mean of every array component about "architecture_DNA" variable. 
-
-*architecture_DNA[0] = Depth
+```sh
+architecture_DNA[0] = Depth
 
 architecture_DNA[1] = Input_layer with: [0] = neurons, [1] = activation
 
@@ -43,6 +44,7 @@ architecture_DNA[Depth] = Output layer activation
 architecture_DNA[-1] = Hyperparameter with: [0] = loss, [1] = optimizer
      
 Depth-1 last hidden layer since last layer is output layer*
+```
 
 # Use of genetic Algorithm in action 
 
@@ -50,13 +52,15 @@ After of you do run evolution execution, you will look some genetic algorithm ap
 
 ### Mutation will hapeness now!
 
-### After mutation  [9, [32, 'relu'], [512, 'selu'], [32, 'softsign'], [512, 'softplus'], [32, 'elu'], [256, 'elu'], [512, 'relu'], [1024, 'selu'], 'sigmoid', ['mean_squared_error', 'nadam']]
+```sh
+ After mutation  [9, [32, 'relu'], [512, 'selu'], [32, 'softsign'], [512, 'softplus'], [32, 'elu'], [256, 'elu'], [512, 'relu'], [1024, 'selu'], 'sigmoid', ['mean_squared_error', 'nadam']]
+ ```
 
 ### Mutation will hapeness now!
 
 Every time that happeness this is because the genetic operates are optimizating the network parameters. 
 
-WARNING! 
+## WARNING! 
 
 The following parameters have convergence direct about network: 
 
